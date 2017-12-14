@@ -22,7 +22,8 @@ class BusinessesViewController: UIViewController, UITableViewDataSource, UITable
         searchBar.delegate = self
         
         navigationItem.titleView = searchBar
-    
+        navigationItem.titleView?.backgroundColor = UIColor.red
+        
         tableView.delegate = self
         tableView.dataSource = self
         
